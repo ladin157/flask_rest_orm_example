@@ -1,4 +1,4 @@
-from .model import Buyer
+from .buyer import Buyer
 from app import db
 
 

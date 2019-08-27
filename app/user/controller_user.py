@@ -1,4 +1,4 @@
-from .model import User
+from .user import User
 from app import db
 
 

@@ -1,5 +1,5 @@
-from .user import api as ns_user
-from .buyer import api as ns_buyer
+from .user import ns_user
+from .buyer import ns_buyer, ns_product
 from flask_restplus import Api
 
 api = Api(title='APIs',
@@ -8,3 +8,4 @@ api = Api(title='APIs',
 
 api.add_namespace(ns=ns_user)
 api.add_namespace(ns=ns_buyer)
+api.add_namespace(ns=ns_product)

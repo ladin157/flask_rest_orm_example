@@ -1,6 +1,6 @@
 from flask_restplus import Resource
-from .dto import Dto
-from .controller import Controller
+from .dto_buyer import Dto
+from .controller_buyer import Controller
 
 api = Dto.api
 _buyer = Dto.model

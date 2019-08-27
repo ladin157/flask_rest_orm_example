@@ -1,6 +1,6 @@
 from flask_restplus import Resource
-from .dto import Dto
-from .controller import Controller
+from .dto_user import Dto
+from .controller_user import Controller
 from flask import request
 
 api = Dto.api
